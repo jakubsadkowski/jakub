@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1698575438 source:/home/LABPK/jsadkowski/jakub/zadanie5/main.c
+	<stdio.h>
+	<stdlib.h>
+
