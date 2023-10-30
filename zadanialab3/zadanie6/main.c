@@ -3,7 +3,6 @@
 
 int main()
 {
-    printf("Hello world!\n");
     int rok;
     scanf("%d", &rok);
     if((rok%4==0 && rok%100!=0)|| rok%400==0)
