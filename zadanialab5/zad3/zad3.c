@@ -1,21 +1,20 @@
 #include <stdio.h>
-#include <stdlib.h>
-int spr(char s, int i)
+
+char slowo(char *s, int i)
 {
-    char wynik;
-    wynik = printf("%c", s[i]);
+
+    char wynik = s[i];
     return wynik;
+
 }
 
 int main(){
 
-    printf("Cześć!\n");
-    char s;
+    printf("Podaj słowo i liczbę:\n");
     int i;
-    scanf("%c %d", &s, &i);
-
-    printf("%d", spr(s,i));
-
-
+    char s[100];
+    scanf("%s %d", &s, &i);
+    printf("%c" ,slowo(s, i));
+    
     return 0;
 }
