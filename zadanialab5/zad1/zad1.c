@@ -27,10 +27,10 @@ int mnozenie()
 int dzielenie()
 {
    printf("Podaj liczby a i b:\n");
-   int a,b,wynik;
-   scanf("%d %d", &a,&b);
+   float a,b,wynik;
+   scanf("%f %f", &a,&b);
    wynik=a/b;
-   printf("Wynik: %d", wynik);
+   printf("Wynik: %f", wynik);
 }
 
 int main(){
